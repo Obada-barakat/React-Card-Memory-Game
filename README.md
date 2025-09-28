@@ -1,16 +1,60 @@
-# React + Vite
+# 🧠 Memory Match Game (React + Framer Motion)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive **Memory Match Game** built with **React**, featuring smooth 3D flip animations, sound effects, and dynamic matching logic.  
+Test your memory by flipping cards and finding all the matching pairs!
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- 🎴 **Randomized deck** – cards are shuffled on every game start  
+- 🎞️ **3D flip animation** – smooth transitions powered by **Framer Motion**  
+- 🔊 **Sound effects** – card flip sound for more engaging gameplay  
+- 🧮 **Score tracking** – see your number of moves and matched pairs  
+- 🔄 **Restart button** – instantly reset and play again  
+- 📱 **Responsive design** – works across desktop and mobile  
+- ♻️ **Reusable logic** – clean state management and effect handling  
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 How to Play
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Click on any card to flip it.  
+2. Try to remember the symbol and find its matching pair.  
+3. Match all pairs to win the game!  
+4. You can restart anytime to reshuffle the deck.
+
+---
+
+## 🚀 Live Demo
+
+🎮 [Play it here](https://your-live-demo-link.com)
+
+## 🛠️ Tech Stack
+
+- ⚛️ **React** – for building UI components and managing state  
+- 🎬 **Framer Motion** – for smooth card flip animations  
+- 🎨 **CSS Modules / Inline Styles** – for styling  
+- 🔊 **HTML Audio API** – for sound effects  
+
+---
+
+## 💡 What I Learned
+
+Building this project helped me:
+
+- Understand how to use **React Hooks** like `useState` and `useEffect`  
+- Manage **conditional rendering** and **side effects** for game logic  
+- Use **Framer Motion** for declarative animations  
+- Integrate **audio effects** with React event handlers  
+- Structure a simple yet scalable **React component architecture**
+
+---
+
+##👨‍💻 Author
+
+Obada Barakat
+Frontend Developer passionate about creating interactive web experiences.
+
+##🪪 License
+
+This project is open source and available under the MIT License.
