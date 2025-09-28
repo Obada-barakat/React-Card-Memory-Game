@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700;900&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Fredoka", sans-serif;
+  /* overflow: hidden; */
+}
+
+.home {
+  position: relative;
+  background-image: url(./assets/board-background.jpg);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  position: relative;
+}
+
+.title span {
+  display: block;
+  width: 100%;
+  font-size: 80px;
+  font-weight: 900;
+  position: relative;
+  text-shadow: 3px 3px 0 #c63b00, 6px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card {
+  text-align: start;
+  color: #ff9800;
+  text-shadow: 3px 3px 0 #d84315, 6px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.memory {
+  color: #ffb300;
+  text-shadow: 3px 3px 0 #e65100, 6px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.match {
+  text-align: end;
+  color: #ffe082;
+  font-size: 50px;
+  text-shadow: 2px 2px 0 #e65100, 5px 5px 0 rgba(0, 0, 0, 0.4);
+}
+
+.playBtn {
+  background-color: #2b6cb0;
+  position: relative;
+  padding: 12px 16px;
+  margin: 24px 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 6px solid rgb(239, 225, 72);
+  cursor: pointer;
+  font-size: 36px;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.playBtn:hover {
+  background-color: #19508a;
+}
+
+.playBtn i {
+  color: rgb(239, 225, 72);
+  position: fixed;
+  transform: translate(-50%, -50%);
+}
