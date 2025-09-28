@@ -27,7 +27,7 @@ Test your memory by flipping cards and finding all the matching pairs!
 
 ## 🚀 Live Demo
 
-🎮 [Play it here](https://your-live-demo-link.com)
+🎮 [Play it here](https://react-card-memory-game-one.vercel.app/)
 
 ## 🛠️ Tech Stack
 
